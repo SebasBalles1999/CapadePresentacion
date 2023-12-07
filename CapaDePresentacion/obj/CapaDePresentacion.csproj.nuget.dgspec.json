@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebas\\Downloads\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {}
+    "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebas\\Downloads\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {
+    "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebas\\Downloads\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+        "projectUniqueName": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
         "projectName": "CapaDePresentacion",
-        "projectPath": "C:\\Users\\Sebas\\Downloads\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
-        "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebas\\Downloads\\CapadePresentacion\\CapaDePresentacion\\obj\\",
+        "projectPath": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\CapaDePresentacion.csproj",
+        "packagesPath": "C:\\Users\\sball\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sball\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/aUAk9O3iIDoCaXcm6ktiJDbEBsP7SEtKBbfSikqa29EMf6XuKR/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

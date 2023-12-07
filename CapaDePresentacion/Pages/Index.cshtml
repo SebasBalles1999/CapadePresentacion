@@ -22,14 +22,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--<link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
-    <link href="Pages/lime/theme/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./lime/theme/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="./lime/theme/assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
     <link href="./lime/theme/assets/plugins/toastr/toastr.min.css" rel="stylesheet">
 
 
     <!-- Theme Styles -->
     <link href="./lime/theme/assets/css/lime.min.css" rel="stylesheet">
-    <link href="./lime/theme/assets/custom.css" rel="stylesheet">
+    <link href="./lime/theme/assets/css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,14 +41,14 @@
 <body>
     <div class='loader'>
         <div class='spinner-grow text-primary' role='status'>
-            <span class='sr-only'>Loading...</span>
+            <span class='sr-only'>Cargando...</span>
         </div>
     </div>
     <div class="modal fade" id="themes-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">New Themes!</h5>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">¡Nuevos Temas!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="material-icons">close</i>
                     </button>
@@ -57,7 +57,7 @@
                     Check out other nice themes by clicking <i class="material-icons" style="font-size: 18px; vertical-align: middle; margin: 0 5px;">layers</i> button at the top right corner of the screen.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -71,96 +71,133 @@
                     Apps
                 </li>
                 <li>
-                    <a href="./index.html" class="active"><i class="material-icons">dashboard</i>Dashboard</a>
+                    <a href="./index.html" class="active"><i class="material-icons">dashboard</i>Gestion de Donantes</a>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/profile.html"><i class="material-icons">person_outline</i>Profile</a>
+                    <a href="./lime/theme/templates/admin1/profile.html"><i class="material-icons">person_outline</i>Registro de Donaciones</a>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/mailbox.html"><i class="material-icons">inbox</i>Mailbox</a>
+                    <a href="./lime/theme/templates/admin1/mailbox.html"><i class="material-icons">inbox</i>Notificaciones y Recordatorios</a>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/todo.html"><i class="material-icons">done_all</i>Todo</a>
+                    <a href="./lime/theme/templates/admin1/todo.html"><i class="material-icons">done_all</i>Generacion de Informes</a>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/file-manager.html"><i class="material-icons">cloud_queue</i>File Manager</a>
-                </li>
-                <li class="sidebar-title">
-                    UI Elements
+                    <a href="./lime/theme/templates/admin1/file-manager.html"><i class="material-icons">cloud_queue</i>Seguridad y Acceso</a>
                 </li>
                 <li>
-                    <a href="#"><i class="material-icons">text_format</i>Styles<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
+                    <a href="./lime/theme/templates/admin1/file-manager.html"><i class="material-icons">cloud_queue</i>Historial de Actividad</a>
+                </li>
+
+                </li>
+                <li>
+                    <a href=""><i class="material-icons">star_border</i>Paginas<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="./lime/theme/templates/admin1/styles-typography.html">Typography</a>
+                            <a href="./lime/theme/templates/admin1/404.html">Error 404</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/styles-code.html">Code</a>
+                            <a href="./lime/theme/templates/admin1/500.html">Error 500</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/styles-tables.html">Tables</a>
+                            <a href="./lime/theme/templates/admin1/sign-in.html">Inicio Sesión</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/styles-icons.html">Icons</a>
+                            <a href="./lime/theme/templates/admin1/sign-up.html">Registrarse</a>
+                        </li>
+                        <li>
+                            <a href="./lime/theme/templates/admin1/lock-screen.html">Pantalla de Bloqueo</a>
+                        </li>
+                        <!--<li>
+                            <a href="./lime/theme/templates/admin1/coming-soon.html">Coming Soon</a>
+                        </li>-->
+                        <li>
+                            <a href="./lime/theme/templates/admin1/invoice.html">Facturación Plantilla</a>
+                        </li>
+                        <!--<li>
+                            <a href="./lime/theme/templates/admin1/pricing-tables.html">Pricing Tables</a>
+                        </li>-->
+                        <!--<li>
+                            <a href="./lime/theme/templates/admin1/help-center.html">Help Center</a>
+                        </li>-->
+                    </ul>
+                </li>
+                <!--<li class="sidebar-title">
+                    IU Elementos
+                </li>
+                <li>
+                    <a href="#"><i class="material-icons">text_format</i>Estilos<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="./lime/theme/templates/admin1/styles-typography.html">Tipografía</a>
+                        </li>
+                        <li>
+                            <a href="./lime/theme/templates/admin1/styles-code.html">Código</a>
+                        </li>
+                        <li>
+                            <a href="./lime/theme/templates/admin1/styles-tables.html">Tablas</a>
+                        </li>
+                        <li>
+                            <a href="./lime/theme/templates/admin1/styles-icons.html">Iconos</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href=""><i class="material-icons">apps</i>Components<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
+                    <a href=""><i class="material-icons">apps</i>Componentes<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-alerts.html">Alerts</a>
+                            <a href="./lime/theme/templates/admin1/ui-alerts.html">Alertas</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-badge.html">Badge</a>
+                            <a href="./lime/theme/templates/admin1/ui-badge.html">Insignia</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-breadcrumb.html">Breadcrumb</a>
+                            <a href="./lime/theme/templates/admin1/ui-breadcrumb.html">Ruta</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-buttons.html">Buttons</a>
+                            <a href="./lime/theme/templates/admin1/ui-buttons.html">Botones</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-button-group.html">Button Group</a>
+                            <a href="./lime/theme/templates/admin1/ui-button-group.html">Botones Agrupados</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-card.html">Card</a>
+                            <a href="./lime/theme/templates/admin1/ui-card.html">Carta</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-collapse.html">Collapse</a>
+                            <a href="./lime/theme/templates/admin1/ui-collapse.html">Visibilidad</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-dropdowns.html">Dropdowns</a>
+                            <a href="./lime/theme/templates/admin1/ui-dropdowns.html">Listas deplegables</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-list-group.html">List Group</a>
+                            <a href="./lime/theme/templates/admin1/ui-list-group.html">Listas Agrupadas</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-media-object.html">Media Object</a>
+                            <a href="./lime/theme/templates/admin1/ui-media-object.html">Multimedia</a>
                         </li>
                         <li>
                             <a href="./lime/theme/templates/admin1/ui-modal.html">Modal</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-navs.html">Navs</a>
+                            <a href="./lime/theme/templates/admin1/ui-navs.html">Navegación</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-pagination.html">Pagination</a>
+                            <a href="./lime/theme/templates/admin1/ui-pagination.html">Paginación</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-popovers.html">Popovers</a>
+                            <a href="./lime/theme/templates/admin1/ui-popovers.html">Cuadros Pop-up</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-progress.html">Progress</a>
+                            <a href="./lime/theme/templates/admin1/ui-progress.html">Progreso</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-spinners.html">Spinners</a>
+                            <a href="./lime/theme/templates/admin1/ui-spinners.html">Circulos de carga</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-toast.html">Toast</a>
+                            <a href="./lime/theme/templates/admin1/ui-toast.html">Ajustes de modificaciones</a>
                         </li>
                         <li>
-                            <a href="./lime/theme/templates/admin1/ui-tooltips.html">Tooltips</a>
+                            <a href="./lime/theme/templates/admin1/ui-tooltips.html">Ajustes de herramientas</a>
                         </li>
                     </ul>
                 </li>
@@ -195,45 +232,13 @@
                 </li>
                 <li class="sidebar-title">
                     Other
-                </li>
-                <li>
-                    <a href=""><i class="material-icons">star_border</i>Pages<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="./lime/theme/templates/admin1/404.html">404</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/500.html">500</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/sign-in.html">Sign In</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/sign-up.html">Sign Up</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/lock-screen.html">Lock Screen</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/coming-soon.html">Coming Soon</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/invoice.html">Invoice</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/pricing-tables.html">Pricing Tables</a>
-                        </li>
-                        <li>
-                            <a href="./lime/theme/templates/admin1/help-center.html">Help Center</a>
-                        </li>
-                    </ul>
-                </li>
+                
                 <li>
                     <a href="#"><i class="material-icons">bookmark_border</i>Documentation</a>
                 </li>
                 <li>
                     <a href="#"><i class="material-icons">access_time</i>Change Log</a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
@@ -262,7 +267,7 @@
                     <span class="material-design-hamburger__layer"></span>
                 </a>
             </section>
-            <a class="navbar-brand" href="#">Lime</a>
+            <a class="navbar-brand" href="#">Asociación</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="material-icons">keyboard_arrow_down</i>
             </button>
@@ -282,10 +287,10 @@
                             <i class="material-icons">more_vert</i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-right">
-                            <li><a class="dropdown-item" href="#">Account</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Cuenta</a></li>
+                            <li><a class="dropdown-item" href="#">Configuración</a></li>
                             <li class="divider"></li>
-                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
 
                         </ul>
                     </li>
@@ -367,7 +372,7 @@
         <div class="lime-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <!--<div class="col-md-8">
                         <div class="card bg-info text-white">
                             <div class="card-body">
                                 <div class="dashboard-info row">
@@ -397,10 +402,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <!--<div class="col-md-4">
                         <div class="card stat-card">
                             <div class="card-body">
                                 <h5 class="card-title">New Customers</h5>
@@ -435,151 +440,152 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="row">
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Last Transactions</h5>
+                                <h5 class="card-title">Últimas Donaciones</h5>
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
                                                 <th scope="col">ID</th>
-                                                <th scope="col">Company</th>
-                                                <th scope="col">Amount</th>
-                                                <th scope="col">Status</th>
+                                                <th scope="col">Usuario</th>
+                                                <th scope="col">Monto</th>
+                                                <th scope="col">Estado</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>0776</td>
-                                                <td>Sale Management</td>
+                                                <td>Juan</td>
                                                 <td>$18, 560</td>
-                                                <td><span class="badge badge-success">Finished</span></td>
+                                                <td><span class="badge badge-success">Activo</span></td>
                                             </tr>
                                             <tr>
                                                 <td>0759</td>
-                                                <td>Dropbox</td>
+                                                <td>Pedro</td>
                                                 <td>$40, 672</td>
-                                                <td><span class="badge badge-warning">Waiting</span></td>
+                                                <td><span class="badge badge-secondary">Inactivo</span></td>
                                             </tr>
                                             <tr>
                                                 <td>0741</td>
-                                                <td>Social Media</td>
+                                                <td>Maria</td>
                                                 <td>$13, 378</td>
-                                                <td><span class="badge badge-info">In Progress</span></td>
+                                                <td><span class="badge badge-success">Activo</span></td>
                                             </tr>
                                             <tr>
                                                 <td>0740</td>
-                                                <td>Envato Market</td>
+                                                <td>Jose</td>
                                                 <td>$17, 456</td>
-                                                <td><span class="badge badge-info">In Progress</span></td>
+                                                <td><span class="badge badge-success">Activo</span></td>
                                             </tr>
                                             <tr>
                                                 <td>0735</td>
-                                                <td>Graphic Design</td>
+                                                <td>Jimmy</td>
                                                 <td>$29, 999</td>
-                                                <td><span class="badge badge-secondary">Canceled</span></td>
+                                                <td><span class="badge badge-secondary">Inactivo</span></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
+                        <button type="button" class="btn btn-outline-primary">Agregar Donante</button>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Social Media</h5>
-                                <div class="social-media-list">
-                                    <div class="social-media-item">
-                                        <div class="social-icon twitter">
-                                            <i class="fab fa-twitter"></i>
+                    <!--<div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Social Media</h5>
+                                    <div class="social-media-list">
+                                        <div class="social-media-item">
+                                            <div class="social-icon twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </div>
+                                            <div class="social-text">
+                                                <p>It’s kind of fun to do the impossible...</p>
+                                                <span>4 November, 2019</span>
+                                            </div>
                                         </div>
-                                        <div class="social-text">
-                                            <p>It’s kind of fun to do the impossible...</p>
-                                            <span>4 November, 2019</span>
+                                        <div class="social-media-item">
+                                            <div class="social-icon google">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </div>
+                                            <div class="social-text">
+                                                <p>Sometimes by losing a battle you find a new way to win the war...</p>
+                                                <span>26 October, 2019</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="social-media-item">
-                                        <div class="social-icon google">
-                                            <i class="fab fa-google-plus-g"></i>
+                                        <div class="social-media-item">
+                                            <div class="social-icon facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </div>
+                                            <div class="social-text">
+                                                <p>To improve is to change; to be perfect is to change often...</p>
+                                                <span>12 October, 2019</span>
+                                            </div>
                                         </div>
-                                        <div class="social-text">
-                                            <p>Sometimes by losing a battle you find a new way to win the war...</p>
-                                            <span>26 October, 2019</span>
-                                        </div>
-                                    </div>
-                                    <div class="social-media-item">
-                                        <div class="social-icon facebook">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </div>
-                                        <div class="social-text">
-                                            <p>To improve is to change; to be perfect is to change often...</p>
-                                            <span>12 October, 2019</span>
-                                        </div>
-                                    </div>
-                                    <div class="social-media-item">
-                                        <div class="social-icon facebook">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </div>
-                                        <div class="social-text">
-                                            <p>If you're going through hell, keep going...</p>
-                                            <span>29 September, 2019</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="alert alert-warning m-b-lg" role="alert">
-                            Data has been updated 23 min ago.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Popular Products</h5>
-                                <div class="popular-products">
-                                    <canvas id="productsChart">Your browser does not support the canvas element.</canvas>
-                                    <div class="popular-product-list">
-                                        <ul class="list-unstyled">
-                                            <li id="popular-product1">
-                                                <span>Alpha - Material Design</span>
-                                                <span class="badge badge-pill badge-success">59%</span>
-                                            </li>
-                                            <li id="popular-product2">
-                                                <span>Space - Light Theme</span>
-                                                <span class="badge badge-pill badge-warning">15%</span>
-                                            </li>
-                                            <li id="popular-product3">
-                                                <span>Modern - Admin Dashboard</span>
-                                                <span class="badge badge-pill badge-secondary">26%</span>
-                                            </li>
-                                        </ul>
-                                        <div class="alert alert-info" role="alert">
-                                            Based on last week's earnings.
+                                        <div class="social-media-item">
+                                            <div class="social-icon facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </div>
+                                            <div class="social-text">
+                                                <p>If you're going through hell, keep going...</p>
+                                                <span>29 September, 2019</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Earnings</h5>
-                                <div id="apex1"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="alert alert-warning m-b-lg" role="alert">
+                                Data has been updated 23 min ago.
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Popular Products</h5>
+                                    <div class="popular-products">
+                                        <canvas id="productsChart">Your browser does not support the canvas element.</canvas>
+                                        <div class="popular-product-list">
+                                            <ul class="list-unstyled">
+                                                <li id="popular-product1">
+                                                    <span>Alpha - Material Design</span>
+                                                    <span class="badge badge-pill badge-success">59%</span>
+                                                </li>
+                                                <li id="popular-product2">
+                                                    <span>Space - Light Theme</span>
+                                                    <span class="badge badge-pill badge-warning">15%</span>
+                                                </li>
+                                                <li id="popular-product3">
+                                                    <span>Modern - Admin Dashboard</span>
+                                                    <span class="badge badge-pill badge-secondary">26%</span>
+                                                </li>
+                                            </ul>
+                                            <div class="alert alert-info" role="alert">
+                                                Based on last week's earnings.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Earnings</h5>
+                                    <div id="apex1"></div>
+                                </div>
+                            </div>
+                        </div>-->
                 </div>
             </div>
         </div>
@@ -587,7 +593,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <span class="footer-text">2019 © stacks</span>
+                        <!--<span class="footer-text">2019 © stacks</span>-->
                     </div>
                 </div>
             </div>
