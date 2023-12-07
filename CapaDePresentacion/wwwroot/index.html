@@ -69,17 +69,25 @@
                 <li>
                     <a href="./lime/theme/templates/admin1/profile.html"><i class="material-icons">person_outline</i>Registro de Donaciones</a>
                 </li>
-                <li>
-                    <a href="./lime/theme/templates/admin1/mailbox.html"><i class="material-icons">inbox</i>Notificaciones y Recordatorios</a>
-                </li>
+                <!--<li>
+                    <a href="./lime/theme/templates/admin1/invoice.html"><i class="material-icons">inbox</i>Notificaciones y Recordatorios</a>
+                </li>-->
                 <li>
                     <a href="./lime/theme/templates/admin1/todo.html"><i class="material-icons">done_all</i>Generacion de Informes</a>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/file-manager.html"><i class="material-icons">cloud_queue</i>Seguridad y Acceso</a>
+                    <a href=""><i class="material-icons">star_border</i>Seguridad y Acceso<i class="material-icons has-sub-menu">keyboard_arrow_left</i></a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="../../../../lime/theme/templates/admin1/sign-in.html">Inicio Sesión</a>
+                        </li>
+                        <li>
+                            <a href="../../../../lime/theme/templates/admin1/sign-up.html">Registrarse</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="./lime/theme/templates/admin1/file-manager.html"><i class="material-icons">cloud_queue</i>Historial de Actividad</a>
+                    <a href="./lime/theme/templates/admin1/charts.html"><i class="material-icons">cloud_queue</i>Historial de Actividad</a>
                 </li>
 
                 </li>
@@ -383,8 +391,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
+                    </div>-->
+                    <!--<div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
                                 <div class="">
@@ -439,14 +447,14 @@
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Últimas Donaciones</h5>
+                                <h5 class="card-title">Donantes</h5>
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
                                                 <th scope="col">ID</th>
                                                 <th scope="col">Usuario</th>
-                                                <th scope="col">Monto</th>
+                                                <!--<th scope="col">Monto</th>-->
                                                 <th scope="col">Estado</th>
                                             </tr>
                                         </thead>
@@ -454,39 +462,60 @@
                                             <tr>
                                                 <td>0776</td>
                                                 <td>Juan</td>
-                                                <td>$18, 560</td>
+                                                <!--<td>$18, 560</td>-->
                                                 <td><span class="badge badge-success">Activo</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-primary">Editar</button>
+                                                    <button type="button" class="btn btn-outline-primary">Eliminar</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>0759</td>
                                                 <td>Pedro</td>
-                                                <td>$40, 672</td>
+                                                <!--<td>$40, 672</td>-->
                                                 <td><span class="badge badge-secondary">Inactivo</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-primary">Editar</button>
+                                                    <button type="button" class="btn btn-outline-primary">Eliminar</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>0741</td>
                                                 <td>Maria</td>
-                                                <td>$13, 378</td>
+                                                <!--<td>$13, 378</td>-->
                                                 <td><span class="badge badge-success">Activo</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-primary">Editar</button>
+                                                    <button type="button" class="btn btn-outline-primary">Eliminar</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>0740</td>
                                                 <td>Jose</td>
-                                                <td>$17, 456</td>
+                                                <!--<td>$17, 456</td>-->
                                                 <td><span class="badge badge-success">Activo</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-primary">Editar</button>
+                                                    <button type="button" class="btn btn-outline-primary">Eliminar</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>0735</td>
                                                 <td>Jimmy</td>
-                                                <td>$29, 999</td>
+                                                <!--<td>$29, 999</td>-->
                                                 <td><span class="badge badge-secondary">Inactivo</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-outline-primary">Editar</button>
+                                                    <button type="button" class="btn btn-outline-primary">Eliminar</button>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-outline-primary">Agregar Donante</button>
+                        <a href="./lime/theme/templates/admin1/forms.html"<button type="button" class="btn btn-outline-primary" >Agregar Donante</button></a>
+                        
                     </div>
                     <!--<div class="col-md-4">
             <div class="card">

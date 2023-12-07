@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8TzZC8hZDk9+phF4fYjSDmTW9sqX0sAXRVWrQ5hNsQE=",
+  "Hash": "uDDxWwKIsHW/8z5KKarSb/NCfSVrq5pbpLSwLOIqr88=",
   "Source": "CapaDePresentacion",
   "BasePath": "_content/CapaDePresentacion",
   "Mode": "Default",
@@ -36990,6 +36990,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lime\\theme\\templates\\admin2\\mailbox.html"
+    },
+    {
+      "Identity": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\wwwroot\\lime\\theme\\templates\\admin2\\mailbox2.html",
+      "SourceId": "CapaDePresentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\wwwroot\\",
+      "BasePath": "_content/CapaDePresentacion",
+      "RelativePath": "lime/theme/templates/admin2/mailbox2.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lime\\theme\\templates\\admin2\\mailbox2.html"
     },
     {
       "Identity": "C:\\Users\\sball\\OneDrive\\Escritorio\\Capa de presentacion Visual\\CapadePresentacion\\CapadePresentacion\\CapaDePresentacion\\wwwroot\\lime\\theme\\templates\\admin2\\plugins-crop.html",
